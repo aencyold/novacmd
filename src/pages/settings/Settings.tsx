@@ -71,6 +71,18 @@ const settingsSections = [
           },
         ]
       },
+      {
+        icon: <FileJson size={16} />,
+        label: "Formatos de Arquivo",
+        description: "Associações e visualizações",
+        settings: [
+          { type: 'checkbox' as const, label: 'Visualização rápida de imagens', value: true },
+          { type: 'checkbox' as const, label: 'Visualização rápida de textos', value: true },
+          { type: 'checkbox' as const, label: 'Visualização rápida de PDFs', value: true },
+          { type: 'checkbox' as const, label: 'Visualização rápida de vídeos', value: true },
+          { type: 'checkbox' as const, label: 'Mostrar miniaturas de imagens', value: true },
+        ]
+      },
     ]
   },
   {
