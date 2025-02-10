@@ -7,7 +7,7 @@ Uma ferramenta "tudo em um" moderna e completa para seu sistema operacional. Com
 ## ✨ Roadmap
 
 > [!TIP]
-> [x] = Concluído — [/] = Em desenvolvimento  — [ ] = Ainda não iniciado
+> **[x] = Concluído — [/] = Em desenvolvimento  — [ ] = Ainda não iniciado**
 
 - [ ] ✅ App funcional multiplataforma!
 - [ ] 💻 Interface rápida, bonita e limpa!
