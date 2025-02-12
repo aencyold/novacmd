@@ -13,17 +13,6 @@ trap cleanup SIGINT SIGTERM EXIT
 # Executa pnpm install
 pnpm install
 
-# Executa pnpm build e aguarda 3 segundos
-pnpm build
-echo "Aguardando 3 segundos após o build..."
-sleep 3
-
-# Executa pnpm dev em background e guarda o PID
-pnpm dev &
-DEV_PID=$!
-
-# Aguarda 3 segundos para garantir que o servidor de desenvolvimento esteja rodando
-echo "Aguardando 3 segundos para o servidor dev..."
 sleep 3
 
 # Executa pnpm start em primeiro plano
