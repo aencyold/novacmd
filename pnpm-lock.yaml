@@ -11,9 +11,12 @@ importers:
       autoprefixer:
         specifier: ^10.4.17
         version: 10.4.20(postcss@8.5.1)
+      lucide-react:
+        specifier: ^0.471.2
+        version: 0.471.2(react@18.3.1)
       nw:
-        specifier: 0.94.1-1
-        version: 0.94.1-1
+        specifier: ^0.95
+        version: 0.95.0
       postcss:
         specifier: ^8.4.33
         version: 8.5.1
@@ -54,9 +57,6 @@ importers:
       eslint-plugin-react-refresh:
         specifier: ^0.4.5
         version: 0.4.18(eslint@8.57.1)
-      lucide-react:
-        specifier: ^0.471.2
-        version: 0.471.2(react@18.3.1)
       rollup-plugin-node-polyfills:
         specifier: ^0.2.1
         version: 0.2.1
@@ -1244,8 +1244,8 @@ packages:
     resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
     engines: {node: '>=0.10.0'}
 
-  nw@0.94.1-1:
-    resolution: {integrity: sha512-Xx2Kh+xxKVYa3dSzvCyWEjQoRopXUQz2fdYYGUxRTkpeoOpMe53No5KI3eEYJfOF4u0aK2qMP5ARintzEYrObg==}
+  nw@0.95.0:
+    resolution: {integrity: sha512-EmINLepkQQfNTl46dg+3RF+z8JzglLxlFXEO3lkR5Bu2CQVGdPyfnO35mY4X4Xk2ZdoJ3U5xUldWSgoG6QDEpw==}
     hasBin: true
 
   object-assign@4.1.1:
@@ -2774,7 +2774,7 @@ snapshots:
 
   normalize-range@0.1.2: {}
 
-  nw@0.94.1-1:
+  nw@0.95.0:
     dependencies:
       axios: 1.7.9
       commander: 13.1.0

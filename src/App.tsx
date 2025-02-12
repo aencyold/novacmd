@@ -16,6 +16,7 @@ import HomePage from './pages/home/Home'
 import InterfacePage from './pages/interface/Interface'
 import ExplorerPage from './pages/explorer/Explorer'
 import SettingsPage from './pages/settings/Settings'
+import Notes from './pages/notes/Notes'
 
 const sidebarItems = [
   {
@@ -56,6 +57,8 @@ function App() {
         return <InterfacePage />
       case 'explorer':
         return <ExplorerPage setActiveItem={setActiveItem} />
+      case 'notes':
+        return <Notes />
       case 'settings':
         return <SettingsPage />
       default:
